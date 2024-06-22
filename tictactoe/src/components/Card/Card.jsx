@@ -14,9 +14,9 @@ function Card({player}){
 
     return(
 
-        <div className='card'>
+        <div className=' size-16 border-2 p-5 text-2xl' bg-white>
             {icon}
-        </div>
+        </div> 
         
     )
 }
